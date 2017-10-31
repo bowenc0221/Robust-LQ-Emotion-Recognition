@@ -1,0 +1,12 @@
+net: "PATH/TO/CAFFE_EMOTION/Pretrain_net.prototxt"
+test_iter: 556
+test_interval: 500
+base_lr: 0.0001
+momentum: 0.9
+weight_decay: 0
+lr_policy: "fixed"
+display: 100
+max_iter: 500000
+snapshot: 50000
+snapshot_prefix: "PATH/TO/CAFFE_EMOTION/Pretrain/Snapshot/Pretrain"
+solver_mode: GPU

@@ -1,0 +1,14 @@
+net: "PATH/TO/CAFFE_EMOTION/Experiments/network/model_1F_CNN+D.prototxt"
+test_iter: 100
+test_interval: 1000
+
+base_lr: 0.01
+lr_policy: "fixed"
+momentum: 0.9
+weight_decay: 0.0005
+
+display: 100
+max_iter:  30000
+snapshot:  1000
+snapshot_prefix: "PATH/TO/CAFFE_EMOTION/Snapshot/emotion"
+solver_mode: GPU
