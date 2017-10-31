@@ -20,11 +20,11 @@ You can download the pretrained model from [Dropbox](https://www.dropbox.com/sh/
 
 ## Citation
 If you use this code for research, please cite our paper:
-'''
+```
 @article{cheng2017robust,
   title={Robust emotion recognition from low quality and low bit rate video: A deep learning approach},
   author={Cheng, Bowen and Wang, Zhangyang and Zhang, Zhaobin and Li, Zhu and Liu, Ding and Yang, Jianchao and Huang, Shuai and Huang, Thomas S},
   journal={arXiv preprint arXiv:1709.03126},
   year={2017}
 }
-'''
+```
