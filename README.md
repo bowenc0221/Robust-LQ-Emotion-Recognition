@@ -1,4 +1,4 @@
-# Robust LQ Emotion Recognition
+# Robust Low-Quality Emotion Recognition
 
 This is codes for [Robust Emotion Recognition from Low Quality and Low Bit Rate Video: A Deep Learning Approach](https://arxiv.org/abs/1709.03126)
 
