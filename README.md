@@ -1,5 +1,7 @@
 # Robust LQ Emotion Recognition
 
+This is codes for [Robust Emotion Recognition from Low Quality and Low Bit Rate Video: A Deep Learning Approach](https://arxiv.org/abs/1709.03126)
+
 ## Usage
 Download the data package for the Multimodal Affect Recognition Sub-Challenge (MASC) of the 6th Audio/Visual Emotion Challenge and Workshop (AVEC 2016): "Depression, Mood and Emotion".  
 
@@ -12,3 +14,6 @@ Download the data package for the Multimodal Affect Recognition Sub-Challenge (M
 
 6. Use /Experiments/network/model_1F_CNN+D_vlqr_non_joint.prototxt and /Experiments/solver/solver_1F_CNN+D_vlqr_non_joint.prototxt for LQ-non-joint  
 7. Use /Experiments/network/model_1F_CNN+D_vlqr.prototxt and /Experiments/solver/solver_1F_CNN+D_vlqr.prototxt for vlqr  
+
+## Pretrain Model
+You can download the pretrained model from [Dropbox](https://www.dropbox.com/sh/9qmsk7xottrtuht/AAAUnjcZ8o4JWkUdSYhrmEuNa/MATLABscripts/recon/weights?dl=0&lst=)  
