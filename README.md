@@ -3,8 +3,8 @@
 This is codes for [Robust Emotion Recognition from Low Quality and Low Bit Rate Video: A Deep Learning Approach](https://arxiv.org/abs/1709.03126)
 
 ## Requirements
--CAFFE
--MATLAB
+* compile [CAFFE](http://caffe.berkeleyvision.org/) and matcaffe
+* install MATLAB
 
 ## Usage
 Download the data package for the Multimodal Affect Recognition Sub-Challenge (MASC) of the 6th Audio/Visual Emotion Challenge and Workshop (AVEC 2016): "Depression, Mood and Emotion".  
