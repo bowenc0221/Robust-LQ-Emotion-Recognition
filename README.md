@@ -2,18 +2,22 @@
 
 This is codes for [Robust Emotion Recognition from Low Quality and Low Bit Rate Video: A Deep Learning Approach](https://arxiv.org/abs/1709.03126)
 
+## Requirements
+-CAFFE
+-MATLAB
+
 ## Usage
 Download the data package for the Multimodal Affect Recognition Sub-Challenge (MASC) of the 6th Audio/Visual Emotion Challenge and Workshop (AVEC 2016): "Depression, Mood and Emotion".  
 
-1. Use /MATLAB_Scripts/prepare_dataset.m to generate cropped faces.  
-2. Use /MATLAB_Scripts/generate_h5/prepare_h5_files.m to generate HDF5 files for training  
-3. Use network Experiments/network/model_1F_CNN+D.prototxt and solver Experiments/solver/solver_1F_CNN+D.prototxt for HQ and LQ  
+1. Use ```./matlabscripts/prepare_dataset.m``` to generate cropped faces.  
+2. Use ```./matlabscripts/generate_h5/prepare_h5_files.m``` to generate HDF5 files for training  
+3. Use network ```./experiments/network/model_1F_CNN+D.prototxt``` and solver ```./experiments/solver/solver_1F_CNN+D.prototxt``` for HQ and LQ  
 
-4. Use /Pretrain/generate_train.m(test) to generate HDF5 files for SR model  
-5. Use /Pretrain/Pretrain_solver.prototxt to train SR model  
+4. Use ```./pretrain/generate_train.m``` and ```./pretrain/generate_test.m``` to generate HDF5 files for SR model  
+5. Use ```./pretrain/Pretrain_solver.prototxt``` to train SR model  
 
-6. Use /Experiments/network/model_1F_CNN+D_vlqr_non_joint.prototxt and /Experiments/solver/solver_1F_CNN+D_vlqr_non_joint.prototxt for LQ-non-joint  
-7. Use /Experiments/network/model_1F_CNN+D_vlqr.prototxt and /Experiments/solver/solver_1F_CNN+D_vlqr.prototxt for vlqr  
+6. Use ```./experiments/network/model_1F_CNN+D_vlqr_non_joint.prototxt``` and ```./experiments/solver/solver_1F_CNN+D_vlqr_non_joint.prototxt``` for LQ-non-joint  
+7. Use ```./experiments/network/model_1F_CNN+D_vlqr.prototxt``` and ```./experiments/solver/solver_1F_CNN+D_vlqr.prototxt``` for vlqr  
 
 ## Pretrain Model
 You can download the pretrained model from [Dropbox](https://www.dropbox.com/sh/9qmsk7xottrtuht/AAAUnjcZ8o4JWkUdSYhrmEuNa/MATLABscripts/recon/weights?dl=0&lst=)  
