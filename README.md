@@ -23,7 +23,8 @@ Download the data package for the Multimodal Affect Recognition Sub-Challenge (M
 You can download the pretrained model from [Dropbox](https://www.dropbox.com/sh/9qmsk7xottrtuht/AAAUnjcZ8o4JWkUdSYhrmEuNa/MATLABscripts/recon/weights?dl=0&lst=)  
 
 ## Citation
-If you use this code for research, please cite our paper:
+If you use this code for research, please cite our papers:
+
 ```
 @article{cheng2017robust,
   title={Robust emotion recognition from low quality and low bit rate video: A deep learning approach},
@@ -31,4 +32,11 @@ If you use this code for research, please cite our paper:
   journal={arXiv preprint arXiv:1709.03126},
   year={2017}
 }
+```
+
+```
+@article{liu2017enhance,
+  title={Enhance Visual Recognition under Adverse Conditions via Deep Networks},
+  author={Liu, Ding and Cheng, Bowen and Wang, Zhangyang and Zhang, Haichao and Huang, Thomas S},
+  journal={arXiv preprint arXiv:1712.07732}, year={2017} }
 ```
