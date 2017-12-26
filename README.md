@@ -38,6 +38,7 @@ If you use this code for research, please cite our papers:
 @article{liu2017enhance,
   title={Enhance Visual Recognition under Adverse Conditions via Deep Networks},
   author={Liu, Ding and Cheng, Bowen and Wang, Zhangyang and Zhang, Haichao and Huang, Thomas S},
-  journal={arXiv preprint arXiv:1712.07732}, year={2017}
+  journal={arXiv preprint arXiv:1712.07732}, 
+  year={2017}
 }
 ```
